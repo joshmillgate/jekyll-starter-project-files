@@ -145,6 +145,8 @@ gulp.task('browser-sync', gulp.series('css', 'jekyll-build', function(done) {
 // Watch for changes
 gulp.task('watch', function(done){
     gulp.watch(path.scss, gulp.series('css'));
+    gulp.watch(path.js, gulp.series('js'));
+    gulp.watch(path.images, gulp.series('imagemin'));
     gulp.watch(path.jekyll, gulp.series('jekyll-rebuild'));
     done();
 });
