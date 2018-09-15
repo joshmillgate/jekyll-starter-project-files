@@ -137,7 +137,8 @@ gulp.task('browser-sync', gulp.series('css', 'jekyll-build', function(done) {
     server: {
         baseDir: '_site'
     },
-    port: config.serverPort
+    port: config.serverPort,
+    notify: false
   });
   done();
 }));
