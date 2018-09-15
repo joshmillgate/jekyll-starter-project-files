@@ -1,0 +1,27 @@
+%bttn {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  @include border-radius(5px);
+}
+
+.sucess {
+  @extend %bttn;
+  background: green;
+}
+
+.error {
+  @extend %bttn;
+  background: red;
+}
+
+
+.testClass {
+  background-color: red;
+  @media (max-width: $breakpoint-tablet) {
+    display: none;
+  }
+}
