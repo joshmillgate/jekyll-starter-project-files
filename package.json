@@ -1,0 +1,50 @@
+{
+    "name": "joshmillgate",
+    "version": "1.0.0",
+    "description": "Test Project",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/joshmillgate/joshmillgate.git"
+    },
+    "author": "Josh Millgate",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/joshmillgate/joshmillgate/issues"
+    },
+    "homepage": "https://github.com/joshmillgate/joshmillgate#readme",
+    "devDependencies": {
+        "babel-core": "6.26.0",
+        "babel-preset-env": "1.6.1",
+        "better-console": "^1.0.1",
+        "browser-sync": "^2.18.13",
+        "del": "^3.0.0",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-autoprefixer": "5.0.0",
+        "gulp-babel": "^7.0.0",
+        "gulp-clean-css": "3.10.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-markdown": "^1.2.0",
+        "gulp-plumber": "^1.2.0",
+        "gulp-postcss": "^7.0.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "4.0.1",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-uglify": "^3.0.0",
+        "gulp-util": "^3.0.8",
+        "postcss-cssnext": "^3.0.2",
+        "run-sequence": "^2.2.1",
+        "scrollreveal": "^3.3.6"
+    },
+    "dependencies": {
+        "gulp-cli": "^2.0.1",
+        "jquery": "3.2.1",
+        "clipboard": "^1.7.1",
+        "normalize.css": "^7.0.0"
+    }
+}
