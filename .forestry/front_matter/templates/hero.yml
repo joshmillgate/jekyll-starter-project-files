@@ -8,3 +8,5 @@ fields:
   name: test
   default: Hello World
   description: test hero
+pages:
+- Projects.html
