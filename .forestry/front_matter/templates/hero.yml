@@ -1,0 +1,10 @@
+---
+label: Hero
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Test
+  name: test
+  default: Hello World
+  description: test hero
