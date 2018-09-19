@@ -3,10 +3,13 @@
     <nav class="nav">
     	<ul>
         <li><a href="#">Logo</a></li>
-    		<li><a href="#" class="active">Projects</a></li>
-        <li><a href="#">Journal</a></li>
-    		<li><a href="#">About</a></li>
-    		<li><a href="#">Contact</a></li>
+        <ul>
+        {% for item in site.menus.header %}
+          <li class="menu-item-{{ loop.index }}">
+            <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
     	</ul>
     </nav>
     <nav class="mobile-nav">
