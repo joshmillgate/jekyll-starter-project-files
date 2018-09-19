@@ -32,6 +32,8 @@ markdown: kramdown
 # Plugins
 plugins:
 - jekyll-menus
+- jekyll-admin
+- jekyll-analytics
 
 
 # Exclude from processing.
