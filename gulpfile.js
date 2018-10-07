@@ -36,7 +36,7 @@ var path = {
       ],
       images: [src + '/images/**/*'],
       fonts: [src + '/fonts/**/*'],
-      jekyll: ['index.html', '_pages/**/*', '_layouts/**/*', '_includes/**/*', '_data/**/*', 'assets/**/*']
+      jekyll: ['*.html', 'index.html', '_pages/**/*', '_layouts/**/*', '_includes/**/*', '_data/**/*', 'assets/**/*']
     };
 
 var config = {
